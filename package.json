@@ -1,0 +1,14 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "author": "antti@antti.codes",
+  "scripts": {
+    "build": "pkg . --out-path build --target node14-win,node14-linux,node14-mac"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^4.4.9"
+  }
+}
